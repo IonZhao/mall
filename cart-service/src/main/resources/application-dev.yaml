@@ -1,5 +1,6 @@
 hm:
   db:
+    database: hm-cart
     host: mysql
     pw: 123
   nacos:

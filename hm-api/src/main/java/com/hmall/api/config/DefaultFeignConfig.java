@@ -7,6 +7,7 @@ import feign.RequestTemplate;
 import org.springframework.context.annotation.Bean;
 
 public class DefaultFeignConfig {
+    // Feign log level, change it to full
     @Bean
     public Logger.Level feignLoggerLevel(){
         return Logger.Level.NONE;

@@ -8,6 +8,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
+// 防止网关生效
 @ConditionalOnClass(DispatcherServlet.class)
 public class MvcConfig implements WebMvcConfigurer{
     @Override

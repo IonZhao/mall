@@ -8,5 +8,3 @@ hm:
   swagger:
     title: "黑马商城购物车服务接口文档"
     package: com.hmall.cart.controller
-#  db:
-#    database: hm-cart
